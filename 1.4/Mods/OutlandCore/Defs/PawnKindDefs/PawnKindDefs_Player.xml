@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Outland_Clansman</defName>
+		<label>clansman</label>
+		<race>Human</race>
+		<defaultFactionType>Outland_PlayerNausican</defaultFactionType>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<apparelTags>
+			<li>NausicClothing</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Outland_NausicToxmask</li>
+			<li>Outland_NausicTunic</li>
+		</apparelRequired>
+		<apparelMoney>2000~2000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.04</techHediffsChance>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
