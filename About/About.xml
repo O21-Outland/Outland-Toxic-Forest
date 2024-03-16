@@ -6,6 +6,7 @@
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>Standalone module for Outland, adding the Toxic Forest biome, a deadly place with a very low chance of surviving if you don't go prepared, but worth the risk for the rewards inside. Yes, this is very clearly inspired by "Nausicaa and the Valley of the Wind" by Studio Ghibli, but it's not intended to be a 1:1 recreation.</description>
     <modDependencies>
