@@ -3,6 +3,7 @@
 	<name>Outland - Toxic Forest</name>
 	<author>Neronix17</author>
 	<packageId>Neronix17.Outland.ToxicForest</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">Outland/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
