@@ -16,7 +16,7 @@
 		<foragedFood>Outland_RawToxplums</foragedFood>
 		<wildPlantRegrowDays>15</wildPlantRegrowDays>
 		<wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility>
-		<isExtremeBiome>true</isExtremeBiome>
+		<isExtremeBiome>false</isExtremeBiome>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Jungle</li>
 			<li>Ambient_DayInsects_Jungle</li>
