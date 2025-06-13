@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ToxForestPlantBase">
+		<defName>Outland_PlantToxstalks</defName>
+		<label>toxstalks</label>
+		<description>Short stalks that resemble a dense grass.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/Toxstalk_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible />
+		<plant>
+			<growDays>2.5</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/Toxstalk_Pollut</pollutedGraphicPath>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestPlantBase">
+		<defName>Outland_PlantToxweed</defName>
+		<label>toxweed</label>
+		<description>An instrusive weed, these tall thin stalks are similar to mushrooms, but lack a mycelial network connecting them.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/Toxweed_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible />
+		<plant>
+			<growDays>2.5</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/Toxweed_Pollut</pollutedGraphicPath>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestPlantBase">
+		<defName>Outland_PlantTallToxstalks</defName>
+		<label>tall toxstalks</label>
+		<description>Tall thick stalks that resemble tall grass. Slows down anyone moving over it.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/Toxstalk_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible />
+		<plant>
+			<growDays>3</growDays>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.7~0.85</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>10</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/Toxstalk_Pollut</pollutedGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestPlantBase">
+		<defName>Outland_PlantToxpoms</defName>
+		<label>toxpoms</label>
+		<description>A bunch of thin soft stalks that sprout into spherical bunches of seeds.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/Toxpom_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible />
+		<plant>
+			<growDays>2.5</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/Toxpom_Pollut</pollutedGraphicPath>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>1</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+</Defs>

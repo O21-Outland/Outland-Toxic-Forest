@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ScenarioDef>
+		<defName>Outland_NausicExplorers</defName>
+		<label>Nausic Clan</label>
+		<description>Your clan was growing too large to be supported by the local Toxic Forest oasis and you three were chosen as part of the lottery to decide who would head out to begin a new clan elsewhere.\n\nNote: This scenario is intended to be played started inside the Toxic Forest and the starting items reflect that.</description>
+		<scenario>
+			<summary>Three Nausic clan builders start anew. Difficult.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Outland_PlayerNausican</factionDef>
+			</playerFaction>
+			<parts>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_RationPack</thingDef>
+					<count>120</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_NausicRifle</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Kibble</thingDef>
+					<count>60</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Outland_Horseclaw</animalKind>
+					<count>3</count>
+					<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>500</count>
+				</li>
+
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Your clan was growing too large to be supported by the local Toxic Forest oasis and you three were chosen as part of the lottery to decide who would head out to begin a new clan elsewhere.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

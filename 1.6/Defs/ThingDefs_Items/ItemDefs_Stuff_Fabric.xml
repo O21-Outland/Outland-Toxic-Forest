@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>Outland_FluffalopeWool</defName>
+		<label>fluffalope wool</label>
+		<description>The remarkably soft wool of a fluffalope. It is warm, protects well from heat, and fetches a high price.</description>
+		<possessionCount>30</possessionCount>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<graphicData>
+			<color>(99, 76, 57)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(99, 76, 57)</color>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
