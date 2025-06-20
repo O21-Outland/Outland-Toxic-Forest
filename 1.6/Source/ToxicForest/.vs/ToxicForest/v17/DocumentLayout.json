@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - toxic forest\\1.6\\source\\toxicforest\\worldgenstep_postpollution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|solutionrelative:worldgenstep_postpollution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - toxic forest\\1.6\\source\\toxicforest\\biomeworker_toxicforest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|solutionrelative:biomeworker_toxicforest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - toxic forest\\1.6\\source\\toxicforest\\defmodext_toxifybiome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|solutionrelative:defmodext_toxifybiome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - toxic forest\\1.6\\source\\toxicforest\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\toxicforestmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|solutionrelative:toxicforestmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ToxicForest||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09273213-5764-4188-8D67-B08BC2730996}|ToxicForest.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - toxic forest\\1.6\\source\\toxicforest\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorldGenStep_PostPollution.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\WorldGenStep_PostPollution.cs",
+              "RelativeDocumentMoniker": "WorldGenStep_PostPollution.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\WorldGenStep_PostPollution.cs",
+              "RelativeToolTip": "WorldGenStep_PostPollution.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:56:48.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BiomeWorker_ToxicForest.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\BiomeWorker_ToxicForest.cs",
+              "RelativeDocumentMoniker": "BiomeWorker_ToxicForest.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\BiomeWorker_ToxicForest.cs",
+              "RelativeToolTip": "BiomeWorker_ToxicForest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:56:06.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefModExt_ToxifyBiome.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\DefModExt_ToxifyBiome.cs",
+              "RelativeDocumentMoniker": "DefModExt_ToxifyBiome.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\DefModExt_ToxifyBiome.cs",
+              "RelativeToolTip": "DefModExt_ToxifyBiome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:56:05.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:55:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToxicForest",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\ToxicForest.csproj",
+              "RelativeDocumentMoniker": "ToxicForest.csproj",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\ToxicForest.csproj",
+              "RelativeToolTip": "ToxicForest.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-20T14:54:15.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToxicForestMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\ToxicForestMod.cs",
+              "RelativeDocumentMoniker": "ToxicForestMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Toxic Forest\\1.6\\Source\\ToxicForest\\ToxicForestMod.cs",
+              "RelativeToolTip": "ToxicForestMod.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:52:46.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

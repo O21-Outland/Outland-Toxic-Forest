@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>Outland_NausicExplorers</defName>
 		<label>Nausic Clan</label>
 		<description>Your clan was growing too large to be supported by the local Toxic Forest oasis and you three were chosen as part of the lottery to decide who would head out to begin a new clan elsewhere.\n\nNote: This scenario is intended to be played started inside the Toxic Forest and the starting items reflect that.</description>

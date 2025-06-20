@@ -11,6 +11,7 @@
 			<LeatherAmount>0</LeatherAmount>
 			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+			<Wildness>0.40</Wildness>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
 		<tools>
@@ -43,7 +44,7 @@
 			<foodType>OmnivoreAnimal, AnimalProduct, VegetarianRoughAnimal</foodType>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<lifeExpectancy>6</lifeExpectancy>
-			<wildness>0.4</wildness>
+			<!-- <wildness>0.4</wildness> -->
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>Advanced</trainability>
 			<packAnimal>true</packAnimal>

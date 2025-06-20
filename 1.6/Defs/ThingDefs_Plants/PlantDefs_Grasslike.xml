@@ -14,7 +14,7 @@
 			<texPath>Outland/ToxicForest/Plants/Toxstalk_Clean</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible />
 		<plant>
 			<growDays>2.5</growDays>
@@ -41,7 +41,7 @@
 			<texPath>Outland/ToxicForest/Plants/Toxweed_Clean</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible />
 		<plant>
 			<growDays>2.5</growDays>
@@ -68,7 +68,7 @@
 			<texPath>Outland/ToxicForest/Plants/Toxstalk_Clean</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible />
 		<plant>
 			<growDays>3</growDays>
@@ -97,7 +97,7 @@
 			<texPath>Outland/ToxicForest/Plants/Toxpom_Clean</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible />
 		<plant>
 			<growDays>2.5</growDays>

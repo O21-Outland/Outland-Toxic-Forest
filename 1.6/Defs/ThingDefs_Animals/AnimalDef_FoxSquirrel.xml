@@ -10,6 +10,7 @@
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>300</MarketValue>
 			<ToxicResistance>1</ToxicResistance>
+			<Wildness>0.50</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -78,7 +79,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<trainability>Advanced</trainability>
-			<wildness>0.50</wildness>
+			<!-- <wildness>0.50</wildness> -->
 			<useMeatFrom>Fox_Fennec</useMeatFrom>
 			<nuzzleMtbHours>15</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>

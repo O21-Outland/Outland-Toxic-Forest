@@ -2,6 +2,21 @@
 <Defs>
 
 	<ThingDef ParentName="EggFertBase">
+		<defName>Outland_EggHorseclawUnfertilized</defName>
+		<label>horseclaw egg (unfert.)</label>
+		<description>An unfertilized horseclaw egg. It can be eaten raw, but it's much better cooked.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<color>(230,230,230)</color>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.6</Nutrition>
+			<MarketValue>23.0</MarketValue>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
 		<defName>Outland_EggHorseclawFertilized</defName>
 		<label>horseclaw egg (fert.)</label>
 		<description>A fertilized horseclaw egg. If all goes well, it should hatch into a baby horseclaw. It can be eaten raw, but it's much better cooked.</description>

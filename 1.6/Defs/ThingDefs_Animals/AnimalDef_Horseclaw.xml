@@ -13,6 +13,7 @@
 			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
 			<MeatAmount>95</MeatAmount>
 			<ToxicResistance>1.0</ToxicResistance>
+			<Wildness>0.60</Wildness>
 		</statBases>
 		<race>
 			<herdAnimal>true</herdAnimal>
@@ -20,7 +21,7 @@
 			<baseHealthScale>1.0</baseHealthScale>
 			<baseHungerRate>0.42</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<wildness>0.60</wildness>
+			<!-- <wildness>0.60</wildness> -->
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<mateMtbHours>8</mateMtbHours>
 			<lifeExpectancy>30</lifeExpectancy>
@@ -55,6 +56,7 @@
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>Outland_EggHorseclawUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>Outland_EggHorseclawFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>5.0</eggLayIntervalDays>

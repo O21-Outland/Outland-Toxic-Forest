@@ -14,12 +14,13 @@ namespace ToxicForest
     {
         public override int SeedPart => 759372056;
 
-        public override void GenerateFresh(string seed)
+        public override void GenerateFresh(string seed, PlanetLayer layer)
         {
             WorldGrid worldGrid = Find.WorldGrid;
-            for (int i = 0; i < worldGrid.TilesCount; i++)
+            List<SurfaceTile> tiles = worldGrid.Tiles.ToList();
+            for (int i = 0; i < tiles.Count; i++)
             {
-                Tile tile = worldGrid.tiles[i];
+                SurfaceTile tile = tiles[i];
                 if (tile.biome.HasModExtension<DefModExt_ToxifyBiome>())
                 {
                     WorldPollutionUtility.PolluteWorldAtTile(i, new FloatRange(0.3f, 1.5f).RandomInRange);

@@ -27,7 +27,7 @@ namespace ToxicForest
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: {mod.Content.Name} :: {CurrentVersion} ::");
 
             File.WriteAllText(VersionDir, CurrentVersion);
 
