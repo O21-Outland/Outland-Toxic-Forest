@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="EggUnfertBase">
 		<defName>Outland_EggHorseclawUnfertilized</defName>
 		<label>horseclaw egg (unfert.)</label>
 		<description>An unfertilized horseclaw egg. It can be eaten raw, but it's much better cooked.</description>
