@@ -11,12 +11,32 @@
 		<settlementSelectionWeight>0.01</settlementSelectionWeight>
 		<campSelectionWeight>0.01</campSelectionWeight>
 		<movementDifficulty>2</movementDifficulty>
+		<riverbankTerrain>Riverbank</riverbankTerrain>
+		<riverbankSizeRange>3~7</riverbankSizeRange>
 		<texture>Outland/ToxicForest/Biomes/ToxicForest</texture>
 		<forageability>1</forageability>
 		<foragedFood>Outland_RawToxplums</foragedFood>
 		<wildPlantRegrowDays>15</wildPlantRegrowDays>
 		<wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility>
+		<pollutionOffset>1.00</pollutionOffset>
 		<isExtremeBiome>false</isExtremeBiome>
+		<maxFishPopulation>540</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<Fish_Bass MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bass>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Marlin MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Marlin>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker>RareFishingCatches_Hot</rareCatchesSetMaker>
+		</fishTypes>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Jungle</li>
 			<li>Ambient_DayInsects_Jungle</li>
@@ -144,7 +164,6 @@
 			<li>Muffalo</li>
 		</allowedPackAnimals>
 		<modExtensions>
-			<li Class="ToxicForest.DefModExt_ToxifyBiome" />
 			<li Class="KCSG.BiomeStructGenExtension">
 				<structures>
 					<li>
