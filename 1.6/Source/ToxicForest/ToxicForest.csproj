@@ -85,6 +85,7 @@
   <ItemGroup>
     <Compile Include="BiomeWorker_ToxicForest.cs" />
     <Compile Include="DefModExt_ToxifyBiome.cs" />
+    <Compile Include="Patch_WorldGenStep_Pollution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToxicForestMod.cs" />
     <Compile Include="WorldGenStep_PostPollution.cs" />

@@ -164,6 +164,7 @@
 			<li>Muffalo</li>
 		</allowedPackAnimals>
 		<modExtensions>
+			<li Class="ToxicForest.DefModExt_ToxifyBiome" />
 			<li Class="KCSG.BiomeStructGenExtension">
 				<structures>
 					<li>
