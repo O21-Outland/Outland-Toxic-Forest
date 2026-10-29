@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Outland_RawToxbeans</defName>
+		<label>toxbeans</label>
+		<description>Large edible beans, they're a great source of nutritional value that stay fresh for quite along time so they make for a good sustainable crop for those living in the Toxic Forest.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Items/Toxbeans</texPath>
+		</graphicData>
+		<thingClass>ThingWithComps</thingClass>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>1.4</MarketValue>
+			<Mass>0.018</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Nutrition>0.04</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Meal</foodType>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<tasteThought />
+			<optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Outland_RawToxplums</defName>
+		<label>toxplums</label>
+		<description>A smooth juicy fruit, they provide a beneficial healing effect for those suffering from toxic buildup.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Items/Toxplums</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>VegetableOrFruit</foodType>
+			<tasteThought />
+			<outcomeDoers>
+				<li Class="TabulaRasa.IngestionOutcomeDoer_GiveHediffAdv">
+					<hediffDefs>
+						<li> <!-- Removes a bit of toxic buildup -->
+							<hediff>ToxicBuildup</hediff>
+							<severityRange>0.1~0.1</severityRange>
+						</li>
+						<li MayRequire="Neronix17.Outland.Core"> <!-- If available, also applies Outlands Anti-Tox -->
+							<hediff>Outland_AntiTox</hediff>
+							<severityRange>0.1~0.1</severityRange>
+						</li>
+					</hediffDefs>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Outland_RawToxmelon</defName>
+		<label>toxmelons</label>
+		<description>A large sweet fruit favoured by those that live in the Toxic Forest for flavour unlike many of the other foods in the Toxic Forest which are typically bland and tasteless.</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Items/Toxmelons</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>VegetableOrFruit</foodType>
+			<tasteThought />
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

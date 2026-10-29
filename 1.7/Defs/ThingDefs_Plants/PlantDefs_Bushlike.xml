@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ToxForestBushBase">
+		<defName>Outland_PlantToxania</defName>
+		<label>toxania</label>
+		<description>A bush native to the Toxic Forest</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/ToxaniaBush</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<pollution>CleanOnly</pollution>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestBushBase">
+		<defName>Outland_PlantToxicae</defName>
+		<label>toxicae</label>
+		<description>A fern native to the Toxic Forest</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/Toxicae_Clean</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/Toxicae_Pollut</pollutedGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestBushBase">
+		<defName>Outland_PlantToxicaePom</defName>
+		<label>toxicae pom</label>
+		<description>A weed like variant of toxicae that sprouts a fluffy spherical bunch of seeds.</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/ToxicaePom_Clean</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/ToxicaePom_Pollut</pollutedGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestBushBase">
+		<defName>Outland_PlantToxfuzzColumns</defName>
+		<label>toxfuzz columns</label>
+		<description>Tubular column shaped moss, how or why they form this shape is unknown but they often house small insects.</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/ToxfuzzColumn</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<pollution>PollutedOnly</pollution>
+		</plant>
+	</ThingDef>
+
+</Defs>

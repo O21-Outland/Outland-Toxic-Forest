@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="Outland_DetoxCookMealBase" Abstract="True">
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Outland_RawToxbeans</li>
+				<li>Outland_RawToxplums</li>
+				<li>Outland_RawToxmelon</li>
+			</thingDefs>
+			<categories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Outland_RawToxbeans</li>
+				<li>Outland_RawToxplums</li>
+				<li>Outland_RawToxmelon</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<!-- ========== Simple Detox Meals ========== -->
+
+	<RecipeDef ParentName="Outland_DetoxCookMealBase">
+		<defName>Outland_CookMealSimpleDetox</defName>
+		<label>cook simple detox meal</label>
+		<description>Cook a straightforward meal from one ingredient, specifically from one that can provide detoxifying properties to a meal.</description>
+		<jobString>Cooking simple detox meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealSimpleDetox>1</Outland_MealSimpleDetox>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>100</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Outland_DetoxCookMealBase">
+		<defName>Outland_CookMealSimpleDetoxBulk</defName>
+		<label>cook simple detox meal x4</label>
+		<description>Cook 4 straightforward meals from one ingredient, specifically from one that can provide detoxifying properties to a meal.</description>
+		<jobString>Cooking 4 simple detox meals.</jobString>
+		<workAmount>1200</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>2.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealSimpleDetox>4</Outland_MealSimpleDetox>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>400</displayPriority>
+	</RecipeDef>
+
+	<!-- ========== Fine Detox Meals ========== -->
+
+	<RecipeDef Name="Outland_CookMealFineDetoxBase" ParentName="Outland_DetoxCookMealBase" Abstract="True">
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Outland_CookMealFineDetoxBase">
+		<defName>Outland_CookMealFineDetox</defName>
+		<label>cook fine detox meal</label>
+		<description>Cook a somewhat complex meal from a combination of meat and plant ingredients from tox absorbing plants, which help detoxify your body from toxic buildup.</description>
+		<jobString>Cooking detox meal.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<Outland_MealFineDetox>1</Outland_MealFineDetox>
+		</products>
+		<displayPriority>200</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Outland_CookMealFineDetoxBase">
+		<defName>Outland_CookMealFineDetox_Veg</defName>
+		<label>cook vegetarian fine detox meal</label>
+		<description>Cook a somewhat complex meal from plant ingredients from tox absorbing plants, which help detoxify your body from toxic buildup.</description>
+		<jobString>Cooking vegetarian detox meal.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>vegetarian ingredients</customSummary>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>0.75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>MeatRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealFineDetox_Veg>1</Outland_MealFineDetox_Veg>
+		</products>
+		<displayPriority>700</displayPriority>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="Outland_CookMealFineDetoxBase">
+		<defName>Outland_CookMealDetox_Meat</defName>
+		<label>cook carnivore detox meal</label>
+		<description>Cook a somewhat complex meal from meat ingredients.</description>
+		<jobString>Cooking carnivore detox meal.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>0.75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>PlantFoodRaw</li>
+				<li>AnimalProductRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealDetox_Meat>1</Outland_MealDetox_Meat>
+		</products>
+		<displayPriority>1100</displayPriority>
+	</RecipeDef> -->
+
+	<RecipeDef Name="Outland_CookMealFineDetoxBulkBase" ParentName="Outland_DetoxCookMealBase" Abstract="True">
+		<workAmount>1800</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Outland_CookMealFineDetoxBulkBase">
+		<defName>Outland_CookMealFineDetoxBulk</defName>
+		<label>cook fine detox meal x4</label>
+		<description>Cook 4 somewhat complex meals from a combination of meat and plant ingredients from tox absorbing plants, which help detoxify your body from toxic buildup. Some of the ingredients are wasted in order to create a good eating experience.</description>
+		<jobString>Cooking 4 detox meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>1.0</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>1.0</count>
+			</li>
+		</ingredients>
+		<products>
+			<Outland_MealFineDetox>4</Outland_MealFineDetox>
+		</products>
+		<displayPriority>500</displayPriority>
+	</RecipeDef>
+
+	<!-- <RecipeDef ParentName="Outland_CookMealFineDetoxBulkBase">
+		<defName>Outland_CookMealDetoxBulk_Meat</defName>
+		<label>cook carnivore detox meal x4</label>
+		<description>Cook 4 somewhat complex meals from meat ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+		<jobString>Cooking 4 carnivore detox meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>3.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>PlantFoodRaw</li>
+				<li>AnimalProductRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealDetox_Meat>4</Outland_MealDetox_Meat>
+		</products>
+		<displayPriority>1300</displayPriority>
+	</RecipeDef> -->
+
+	<RecipeDef ParentName="Outland_CookMealFineDetoxBulkBase">
+		<defName>Outland_CookMealFineDetoxBulk_Veg</defName>
+		<label>cook vegetarian fine detox meal x4</label>
+		<description>Cook 4 somewhat complex meals from plant ingredients from tox absorbing plants, which help detoxify your body from toxic buildup. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+		<jobString>Cooking 4 vegetarian detox meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>vegetarian ingredients</customSummary>
+					<thingDefs>
+						<li>Outland_RawToxbeans</li>
+						<li>Outland_RawToxplums</li>
+						<li>Outland_RawToxmelon</li>
+					</thingDefs>
+				</filter>
+				<count>3.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<disallowedCategories>
+				<li>MeatRaw</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+		<products>
+			<Outland_MealFineDetox_Veg>4</Outland_MealFineDetox_Veg>
+		</products>
+		<displayPriority>900</displayPriority>
+	</RecipeDef>
+
+</Defs>

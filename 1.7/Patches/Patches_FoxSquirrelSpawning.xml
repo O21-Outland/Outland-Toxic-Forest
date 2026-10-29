@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp"]/wildAnimals</xpath>
+		<value>
+			<Outland_FoxSquirrel>0.1</Outland_FoxSquirrel>
+		</value>
+	</Operation>
+
+</Patch>

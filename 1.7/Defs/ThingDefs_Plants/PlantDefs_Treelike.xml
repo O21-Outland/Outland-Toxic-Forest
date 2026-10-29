@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ToxForestTreeBase">
+		<defName>Outland_TreeGiantToxpoms</defName>
+		<label>giant toxpoms</label>
+		<description>Much larger variant of toxpoms, their stalks are so dense they produce a woody material.</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/LargeToxpom_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>30</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/LargeToxpom_Pollut</pollutedGraphicPath>
+			<visualSizeRange>0.7~1.3</visualSizeRange>
+			<harvestWork>1400</harvestWork>
+			<harvestYield>22</harvestYield>
+			<wildClusterWeight>35</wildClusterWeight>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="ToxForestTreeBase">
+		<defName>Outland_TreeToxarbor</defName>
+		<label>toxarbor tree</label>
+		<description>A strange species of tree that has a moss-like canopy with tubular structure to it instead of leaves.</description>
+		<graphicData>
+			<texPath>Outland/ToxicForest/Plants/ToxarborTree_Clean</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>30</growDays>
+			<pollutedGraphicPath>Outland/ToxicForest/Plants/ToxarborTree_Pollut</pollutedGraphicPath>
+			<harvestWork>1400</harvestWork>
+			<harvestYield>46</harvestYield>
+			<wildClusterWeight>35</wildClusterWeight>
+		</plant>
+	</ThingDef>
+
+</Defs>

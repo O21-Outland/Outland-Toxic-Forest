@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="RockBase">
+		<defName>Outland_PetriWood</defName>
+		<label>petri-wood</label>
+		<description>The base of an ancient, collosal tree that has petrified into stone. Some wood can still be obtained from mining it, but it's very minimal.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Rock_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(143, 132, 105)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>WoodLog</mineableThing>
+			<mineableYield>4</mineableYield>
+			<mineableScatterCommonality>0</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>0~0</mineableScatterLumpSizeRange>
+		</building>
+	</ThingDef>
+
+</Defs>

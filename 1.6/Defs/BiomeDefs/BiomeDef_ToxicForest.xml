@@ -35,7 +35,7 @@
 				<Fish_Marlin MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Marlin>
 				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
 			</saltwater_Uncommon>
-			<rareCatchesSetMaker>RareFishingCatches_Hot</rareCatchesSetMaker>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Hot</rareCatchesSetMaker>
 		</fishTypes>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Jungle</li>

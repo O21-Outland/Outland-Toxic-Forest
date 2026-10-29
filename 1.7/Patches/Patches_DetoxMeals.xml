@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="ElectricStove" or defName="FueledStove" or defName="Campfire"]/recipes</xpath>
+		<value>
+			<li>Outland_CookMealSimpleDetox</li>
+			<li>Outland_CookMealSimpleDetoxBulk</li>
+			<li>Outland_CookMealFineDetox</li>
+			<li>Outland_CookMealFineDetoxBulk</li>
+			<li>Outland_CookMealFineDetox_Veg</li>
+			<li>Outland_CookMealFineDetoxBulk_Veg</li>
+		</value>
+	</Operation>
+
+</Patch>

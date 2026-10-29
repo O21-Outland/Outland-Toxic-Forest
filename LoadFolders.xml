@@ -18,4 +18,10 @@
 		<li>1.6</li>
 		<li IfModActive="Neronix17.Outland.Core">1.6/Mods/OutlandCore</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>Common</li>
+		<li>1.7</li>
+		<li IfModActive="Neronix17.Outland.Core">1.7/Mods/OutlandCore</li>
+	</v1.7>
 </loadFolders>
